@@ -91,3 +91,30 @@ a {
   -ms-flex-align: center;
   align-items: center;
 }
+
+/* navbar */
+
+.main-head {
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin: auto;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+  width: 90%;
+  /* flex */
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  flex: 1 1 20rem;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1 1 20rem;
+  justify-content: space-around;
+}
