@@ -29,7 +29,7 @@ html {
   --header3: calc(3rem + 1vw);
   --header4: calc(2.4rem + 1vw);
   --text: calc(1.5rem + 1vw);
-  --big: calc(2.4rem + 1vw);
+  --big: calc(6rem + 1vw);
   --main-color: #414141;
   --grey-text: #3d3d3d;
   --special-color: #906272;
@@ -378,6 +378,55 @@ nav {
   background: rgba(0, 0, 0, 0.5);
   padding: 5rem 10rem;
   text-align: center;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.form-wrapper {
+  flex: 3 1 40rem;
+}
+
+.form-wrapper h2 {
+  margin-bottom: var(--big);
+}
+
+.form-wrapper span {
+  color: var(--special-color);
+  font-size: var(--big);
+}
+
+.form-wrapper label{
+  display: block;
+}
+
+.form-wrapper input{
+  background: var(--main-color);
+  border: none;
+  color: #fff;
+  display: block;
+  margin: 3rem 0rem;
+  padding: 1rem;
+}
+
+.form-wrapper button {
+  padding: 1rem 8rem;
+  background: var(--special-color);
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+.contact img {
+  flex: 1 1 40rem;
 }
 
 /*  MEDIA QUERIES */
